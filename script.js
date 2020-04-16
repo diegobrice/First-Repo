@@ -1,5 +1,5 @@
-var array = [1,2,3,4,5]; //esto es un objeto
-var persona = {nombre: "Diego", edad:29, activo:true};
+var array = [1,2,3,4,5,6]; //esto es un objeto
+var persona = {nombre: "Diego", edad:28, activo:true};
 console.log(array);
 console.log(typeof array);
 console.log(persona.edad);
