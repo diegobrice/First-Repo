@@ -1,3 +1,16 @@
+// VARIABLES
+
+var num;    // declaracion de variable
+num = 2;    // inicializacion de variable
+
+/*
+nombre de una variable = identificador, 
+puede estar formado por letras, numeros, y los simbolos $ (dolar) y _ (guion bajo), 
+el primer caracter no puede ser un numero.
+*/
+
+//TIPOS DE VARIABLES
+
 var array = [1,2,3,4,5,6]; //esto es un objeto
 
 var persona = {
@@ -24,4 +37,6 @@ elementos.forEach(e => {
     console.log(typeof e);
 });
 
+console.log(!persona.edad);
+console.log(5**3);
 
