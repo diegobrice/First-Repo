@@ -13,18 +13,12 @@ in a block
 
 ## Definiciones:
 
-* **Scope:** 
-: alcance que tienen las variables
+**Scope:** alcance que tienen las variables
 
-* **Hoisting:** 
-: relacionado con scope
-
-***
-___
----
+* **Hoisting:** relacionado con scope
 
 ## Links:
 
-
+***
 
 Autor: @diegobrice
