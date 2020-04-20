@@ -1,3 +1,5 @@
+// TOPIC: OPERADORES
+
 var valores = [true, 5, false, "hola", "adios", 2];
 
 // Cual de los 2 elementos de texto es mayor

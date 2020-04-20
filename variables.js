@@ -1,7 +1,7 @@
-// VARIABLES
+// TOPIC: VARIABLES
 
 var num;    // declaracion de variable
-num = 2;    // inicializacion de variable
+num = 8;    // inicializacion de variable
 
 /*
 nombre de una variable = identificador, 
@@ -9,7 +9,12 @@ puede estar formado por letras, numeros, y los simbolos $ (dolar) y _ (guion baj
 el primer caracter no puede ser un numero.
 */
 
-//TIPOS DE VARIABLES
+// TIPOS DE VARIABLES
+
+// NUMERICAS
+// CADENAS DE TEXTO
+
+
 
 var array = [1,2,3,4,5,6]; //esto es un objeto
 

@@ -1,9 +1,14 @@
-// FUNCIONES
+// TOPIC: FUNCIONES
+//Las funciones en JavaScript se definen mediante la palabra reservada function, seguida del nombre de la función. Su definición formal es la siguiente:
+
+function nombre_funcion() {
+    return;
+}
 
 // Funciones Declarativas (function declaration / function statement)
 // utilizamos la palabra reservada function al inicio para poder declarar la función
 
-saludar("Diego");
+saludar("Diego");                   // llamar o invocar a la funcion (hoisting)
 function saludar(nombre){           // funcion "saludar" recibe un parametro "nombre"
     console.log(`Hola ${nombre}`);  // (`Hola ${nombre}`) es lo mismo que ("Hola " + nombre)
 }
@@ -16,6 +21,20 @@ var sumar = function(a,b){
 }
 console.log(sumar(5,2));
 
-/*Diferencias:
-A las funciones declarativas se les aplica NOTE: hoisting, y a la expresión de función, no. Ya que el hoisting solo se aplica en las palabras reservadas var y function.
+/* NOTE: 
+A las funciones declarativas se les aplica  hoisting, y a la expresión de función, no. Ya que el hoisting solo se aplica en las palabras reservadas var y function.
 Lo que quiere decir que con las funciones declarativas, podemos mandar llamar la función antes de que ésta sea declarada, y con la expresión de función, no, tendríamos que declararla primero, y después mandarla llamar.*/
+
+// EJEM: Funcion para calcular precio con impuestos y gastos de envio
+
+function calculaPrecioTotal(precio, igv) {
+    var gastosEnvio = 10;
+    var precioConImpuestos = (1 + igv/100) * precio;
+    var precioTotal = precioConImpuestos + gastosEnvio;
+    return precioTotal.toFixed(2)*1;                                    //redondear a 2 decimales
+}
+  
+var precioTotal = calculaPrecioTotal(100, 18);
+console.log(precioTotal);
+console.log(precioTotal*2);
+  
