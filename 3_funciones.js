@@ -1,5 +1,5 @@
 // TOPIC: FUNCIONES
-//Las funciones en JavaScript se definen mediante la palabra reservada function, seguida del nombre de la función. Su definición formal es la siguiente:
+// Las funciones en JavaScript se definen mediante la palabra reservada function, seguida del nombre de la función. Su definición formal es la siguiente:
 
 function nombre_funcion() {
     return;
