@@ -27,14 +27,14 @@ Lo que quiere decir que con las funciones declarativas, podemos mandar llamar la
 
 // EJEM: Funcion para calcular precio con impuestos y gastos de envio
 
-function calculaPrecioTotal(precio, igv) {
-    var gastosEnvio = 10;
-    var precioConImpuestos = (1 + igv/100) * precio;
+function calculaPrecioTotal(precio, igv){
+    gastosEnvio = 10;                                       //variable definida globalmente al no usar "var"
+    var precioConImpuestos = (1 + igv/100) * precio;        //variable local dentro de la funcion
     var precioTotal = precioConImpuestos + gastosEnvio;
-    return precioTotal.toFixed(2)*1;                                    //redondear a 2 decimales
+    return precioTotal.toFixed(2)*1;                        //redondear a 2 decimales
 }
   
 var precioTotal = calculaPrecioTotal(100, 18);
 console.log(precioTotal);
-console.log(precioTotal*2);
-  
+console.log(gastosEnvio);
+//console.log(precioConImpuestos);  
