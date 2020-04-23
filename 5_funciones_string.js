@@ -1,6 +1,4 @@
-// TOPIC: FUNCIONES Y PROPIEDADES BASICAS
-
-// CADENAS DE TEXTO
+// TOPIC: FUNCIONES CADENAS DE TEXTO
 
 // length, calcula la longitud de una cadena de texto (el número de caracteres que la forman)
 var mensaje = "Hola Mundo";

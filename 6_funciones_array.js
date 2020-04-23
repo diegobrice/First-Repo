@@ -1,3 +1,5 @@
+// TOPIC: FUNCIONES ARRAYS
+
 //length, calcula el número de elementos de un array
 var vocales = ["a", "e", "i", "o", "u"];
 var numeroVocales = vocales.length; // numeroVocales = 5
