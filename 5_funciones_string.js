@@ -67,3 +67,4 @@ var palabras = mensaje.split(" ");  // palabras = ["Hola", "Mundo,", "soy", "una
 // Con esta función se pueden extraer fácilmente las letras que forman una palabra:
 var palabra = "Hola";
 var letras = palabra.split("");     // letras = ["H", "o", "l", "a"]
+
