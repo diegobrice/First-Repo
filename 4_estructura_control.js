@@ -15,6 +15,12 @@ else {
     console.log("Todavía eres menor de edad");
 }
 
+// OPERADOR CONDICIONAL TERNARIO condición ? expr1 : expr2 
+// Si la condición es true, el operador retorna el valor de la expr1; de lo contrario, devuelve el valor de expr2. 
+
+var firstCheck = false, secondCheck = false, access = firstCheck ? "Acceso Denegado" : secondCheck ? "Acceso Denegado" : "Acceso Permitido";
+console.log( access ); // muestra "Acceso Permitido"
+
 // ESTRUCTURA FOR
 
 // La idea del funcionamiento de un bucle for es la siguiente: "mientras la condición indicada se siga cumpliendo, repite la ejecución de las instrucciones definidas dentro del for. Además, después de cada repetición, actualiza el valor de las variables que se utilizan en la condición".

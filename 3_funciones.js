@@ -38,3 +38,12 @@ var precioTotal = calculaPrecioTotal(100, 18);
 console.log(precioTotal);
 console.log(gastosEnvio);
 //console.log(precioConImpuestos);  
+
+var meses = [1,2,3,4,5,"jun"];
+imprime(meses);
+
+function imprime(arreglo){
+    for (i in arreglo){
+        console.log(arreglo[i]);
+    }
+}

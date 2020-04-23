@@ -59,7 +59,12 @@ var ivaIncluido = true;
 
 var elementos = ["hola",true,"mundo",2,true, [1,2]];
 
-elementos.forEach(dato => {
+elementos.forEach(dato => {         //NOTE: investigar
     console.log(dato);
     console.log(typeof dato);
 });
+
+for (i in elementos){
+    console.log(elementos[i]);
+    console.log(typeof elementos[i]);   
+}
