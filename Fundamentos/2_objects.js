@@ -16,8 +16,11 @@ function saludarMAYUS(person){
 }
 saludarMAYUS(persona);              
 
-var esmayor = ({edad}) => (edad) > 18 ? "Es mayor": "Es menor";
+var esmayor = ({edad}) => (edad) > 18 ? "Es mayor": "Es menor"; // despues del => no hay {} entonces es un return
 
 console.log(esmayor(persona));
 console.log(esmayor({edad: 16}));
 
+var esmenor = ({edad}) => { return (edad) < 18 ? "Es MENOR": "Es MAYOR"} // con {} se debe especificar return de ser necesario
+console.log(esmenor({edad: 15}));
+ 

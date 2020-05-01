@@ -73,3 +73,19 @@ for (var elemento of elementos){
     console.log(elemento);
     console.log(typeof elemento);   
 }
+
+var persona1 = {
+    nombre: "Diego",
+    edad: 28,
+    activo: true
+};
+
+var persona2 = {
+    nombre: "Alonso",
+    edad: 30,
+    activo: true
+};
+
+var personas = [persona1, persona2];
+console.log(personas);
+console.log(personas[0]["edad"]);       //es lo mismo que: console.log(personas[0].edad);
