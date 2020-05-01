@@ -1,15 +1,3 @@
-var nombre = "Diego", pais = 'Peru', edad = 28;
-
-console.log(`Hola ${nombre} de ${pais} con ${edad}`);
-
-function mayus(a){
-    return a.toUpperCase();
-}
-
-function minus(a){
-    return a.toLowerCase();
-}
-
 // var nomusuario = prompt("¿Cual es tu nombre?");
 // console.log(`La ultima letra de tu nombre es ${nomusuario.charAt(nomusuario.length-1)}`);
 
