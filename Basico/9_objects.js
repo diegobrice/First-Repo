@@ -24,7 +24,16 @@ function automovil(marca,modelo,año) {
     this.marca = marca;
     this.modelo = modelo;
     this.año = año;
+    this.avanzar = function(num) {
+        this.año += num;
+    }
 }
+
+carro = new automovil("Toyota","Sedan",2018)
+console.log(carro);
+carro.avanzar(1);
+console.log(carro);
+
 
 function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
@@ -73,5 +82,3 @@ var autosModernos = autos.some(function(auto){
     return auto.año >= 2019;
 })
 console.log(autosModernos);
-
-
