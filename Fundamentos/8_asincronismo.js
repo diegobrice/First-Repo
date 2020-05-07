@@ -49,3 +49,6 @@ diego.saludar();
 alonso.saludar();
 diego.saludar(responderSaludo);
 alonso.saludar(responderSaludo);
+
+setTimeout(() => console.log("Al final"), 0);
+console.log("hola");
