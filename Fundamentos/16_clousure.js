@@ -12,10 +12,14 @@ console.log(desc10(10));
 console.log(desc25(10));
 console.log(desc50(10));
 
-function descuento(precio, desc) {
-  return precio - precio * desc;
-}
+var add = (function () {
+  var counter = 0;
+  return function () {
+    counter += 1;
+    return counter;
+  };
+})();
 
-console.log(descuento(10, 0.1));
-console.log(descuento(10, 0.25));
-console.log(descuento(10, 0.5));
+add();
+add();
+add();

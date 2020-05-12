@@ -22,3 +22,15 @@ function factorial(num) {
   if (num === 0) return 1;
   return num * factorial(num - 1);
 }
+
+const diego = {
+  nombre: "Diego",
+  edad: 28,
+};
+
+function saludar() {
+  console.log(`Hola ${this.nombre}`);
+}
+
+const saludarDiego = saludar.bind(diego);
+saludarDiego();
